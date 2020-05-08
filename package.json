@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
     "postbuild": "next-on-netlify",
     "netlify:dev": "npm run build && netlify dev"
