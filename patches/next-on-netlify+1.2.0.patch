@@ -1,0 +1,15 @@
+diff --git a/node_modules/next-on-netlify/lib/routerTemplate.js b/node_modules/next-on-netlify/lib/routerTemplate.js
+index 3080632..3d014b3 100644
+--- a/node_modules/next-on-netlify/lib/routerTemplate.js
++++ b/node_modules/next-on-netlify/lib/routerTemplate.js
+@@ -25,6 +25,10 @@ const getRoute = path => {
+ }
+ 
+ exports.handler = (event, context, callback) => {
++
++  console.log(event)
++  console.log(context)
++
+   // The following lines set event.path in development environments.
+   // There is a difference in how Netlify handles redirects locally vs
+   // production. Locally, event.path is set to the target of the redirect:

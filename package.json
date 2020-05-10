@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "patch-package",
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-on-netlify",
@@ -15,6 +16,7 @@
   "dependencies": {
     "next": "^9.3.6",
     "next-on-netlify": "^1.2.0",
+    "patch-package": "^6.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
