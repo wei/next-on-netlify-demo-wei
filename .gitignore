@@ -5,3 +5,7 @@ node_modules/
 functions/nextRouter
 public/_next
 public/_redirects
+
+/out_publish/
+/out_functions/
+/404.html

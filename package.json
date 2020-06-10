@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "next": "^9.3.6",
-    "next-on-netlify": "^1.2.0",
+    "next-on-netlify": "^2.0.0",
     "patch-package": "^6.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
